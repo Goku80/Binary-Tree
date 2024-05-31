@@ -1,0 +1,48 @@
+digraph G {
+    " rkvfadbiohentsu : 46" -> " rkvf : 19"
+    " rkvf : 19" -> "  : 9"
+    "  : 9" [shape=rectangle];
+    " rkvf : 19" -> "rkvf : 10"
+    "rkvf : 10" -> "r : 5"
+    "r : 5" [shape=rectangle];
+    "rkvf : 10" -> "kvf : 5"
+    "kvf : 5" -> "kv : 2"
+    "kv : 2" -> "k : 1"
+    "k : 1" [shape=rectangle];
+    "kv : 2" -> "v : 1"
+    "v : 1" [shape=rectangle];
+    "kvf : 5" -> "f : 3"
+    "f : 3" [shape=rectangle];
+    " rkvfadbiohentsu : 46" -> "adbiohentsu : 27"
+    "adbiohentsu : 27" -> "adbioh : 12"
+    "adbioh : 12" -> "a : 5"
+    "a : 5" [shape=rectangle];
+    "adbioh : 12" -> "dbioh : 7"
+    "dbioh : 7" -> "d : 3"
+    "d : 3" [shape=rectangle];
+    "dbioh : 7" -> "bioh : 4"
+    "bioh : 4" -> "bi : 2"
+    "bi : 2" -> "b : 1"
+    "b : 1" [shape=rectangle];
+    "bi : 2" -> "i : 1"
+    "i : 1" [shape=rectangle];
+    "bioh : 4" -> "oh : 2"
+    "oh : 2" -> "o : 1"
+    "o : 1" [shape=rectangle];
+    "oh : 2" -> "h : 1"
+    "h : 1" [shape=rectangle];
+    "adbiohentsu : 27" -> "entsu : 15"
+    "entsu : 15" -> "e : 7"
+    "e : 7" [shape=rectangle];
+    "entsu : 15" -> "ntsu : 8"
+    "ntsu : 8" -> "n : 4"
+    "n : 4" [shape=rectangle];
+    "ntsu : 8" -> "tsu : 4"
+    "tsu : 4" -> "t : 2"
+    "t : 2" [shape=rectangle];
+    "tsu : 4" -> "su : 2"
+    "su : 2" -> "s : 1"
+    "s : 1" [shape=rectangle];
+    "su : 2" -> "u : 1"
+    "u : 1" [shape=rectangle];
+}

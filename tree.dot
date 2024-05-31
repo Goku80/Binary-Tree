@@ -1,0 +1,15 @@
+digraph G {
+    "5" -> "3"
+    "3" -> "1"
+empty0[label="", style=invis];
+    "1" -> empty0
+    "1" -> "2"
+    "2" [shape=rectangle];
+    "3" -> "4"
+    "4" [shape=rectangle];
+    "5" -> "7"
+    "7" -> "6"
+    "6" [shape=rectangle];
+empty1[label="", style=invis];
+    "7" -> empty1
+}

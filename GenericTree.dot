@@ -1,0 +1,18 @@
+digraph G {
+    "Meyer" -> "Becker"
+    empty0 [label="", style=invis];
+    "Becker" -> empty0
+    "Becker" -> "Hoffmann"
+    empty1 [label="", style=invis];
+    "Hoffmann" -> empty1
+    "Hoffmann" -> "Koch"
+    "Koch" [shape=rectangle];
+    "Meyer" -> "Mueller"
+    empty2 [label="", style=invis];
+    "Mueller" -> empty2
+    "Mueller" -> "Schmidt"
+    empty3 [label="", style=invis];
+    "Schmidt" -> empty3
+    "Schmidt" -> "Schneider"
+    "Schneider" [shape=rectangle];
+}
